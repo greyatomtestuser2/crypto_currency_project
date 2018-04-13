@@ -8,10 +8,11 @@ https://quantivity.wordpress.com/2011/02/21/why-log-returns/
 ## Write a function `q05_log_returns` that :
 - Reads the previously stored csv file into a dataframe and assign the first column (`Date`) as `index`
 - Calculate the log returns from the `Close` columns using the following formula ; Apply the transformation to the entire dataframe
-<img src = "log.gif">
 - Drop the first row of the dataframe to remove 'nan' value
 - Plot the `Close` column
 - Return the transformed dataframe
+
+<img src = "log.gif">
 
 ### Parameters :
 | Parameter | dtype | argument type | default value | description |
