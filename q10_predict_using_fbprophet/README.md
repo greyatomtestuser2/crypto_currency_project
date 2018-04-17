@@ -7,7 +7,7 @@ Go through the quick start guide before starting the task : https://facebook.git
 ## Write a function `q10_predict_using_fbprophet` that :
 - Reads the previously stored csv file into a dataframe and assign the first column (`Date`) as `index`
 - Create a new dataframe `df_p` with columns as `ds` and `y` which will contain the dates and closing prices from original dataframe respectively (this is the defined input required for fbprophet)
-- Predict the prices of Bitcoin using `Prophet` model. Set `dail_seasonality = False` in the model. Use `periods = 7` in `make_future_dataframe`.
+- Predict the prices of Bitcoin using `Prophet` model. Set `daily_seasonality = False` in the model. Use `periods = 7` in `make_future_dataframe`.
 - Plot the forecast using `Prohpet.plot()` method
 - Return a pandas series of `yhat` column from forecast dataframe
 
