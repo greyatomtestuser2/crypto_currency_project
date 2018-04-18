@@ -9,6 +9,7 @@ https://en.wikipedia.org/wiki/Correlogram
 - Reads the previously stored csv file into a dataframe and assign the first column (`Date`) as `index`
 - Plot the correlogram using `pandas.plotting.autocorrelation_plot()`
 
+Note: Include the line `plt.switch_backend('agg')` after the import statements
 
 ### Parameters :
 | Parameter | dtype | argument type | default value | description |
