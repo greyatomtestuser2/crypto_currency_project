@@ -22,6 +22,6 @@ Read more here : https://www.investopedia.com/terms/m/macd.asp
 | Return | dtype | description |
 | --- | --- | --- |
 | df | pandas.DataFrame | return the dataframe after performing above operations|
-
+The plot should be similar to https://github.com/commit-live-students/crypto_currency_project/blob/master/images/macd.png
 
 `use adjust = False argument in Series.ewm()`
