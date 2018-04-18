@@ -11,6 +11,8 @@ Read more here : https://www.investopedia.com/university/movingaverage/movingave
 - Plot the `Close`, `20d` and `100d` time series on one plot
 - Return the dataframe
 
+Note: Include the line `plt.switch_backend('agg')` after the import statements
+
 ### Parameters :
 | Parameter | dtype | argument type | default value | description |
 | --- | --- | --- | --- | --- |
