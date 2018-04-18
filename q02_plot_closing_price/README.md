@@ -13,4 +13,5 @@ Now you have the historical prices of Bitcoin, let's start with exploring the da
 
 ### Returns:
 There is no return parameter for the function. 
+The plot should be similar to https://github.com/commit-live-students/crypto_currency_project/blob/master/images/price_history.png
 
