@@ -13,6 +13,8 @@ Read more here : https://www.investopedia.com/terms/m/macd.asp
 - Plot the `Close`, `macd` and `signal` time series on one plot
 - Return the dataframe
 
+Note: Include the line `plt.switch_backend('agg')` after the import statements
+
 ### Parameters :
 | Parameter | dtype | argument type | default value | description |
 | --- | --- | --- | --- | --- |
