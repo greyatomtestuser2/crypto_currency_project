@@ -14,6 +14,8 @@ https://quantivity.wordpress.com/2011/02/21/why-log-returns/
 
 <img src = "log.gif">
 
+Note: Include the line `plt.switch_backend('agg')` after the import statements
+
 ### Parameters :
 | Parameter | dtype | argument type | default value | description |
 | --- | --- | --- | --- | --- |
