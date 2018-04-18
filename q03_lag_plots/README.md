@@ -16,4 +16,5 @@ You can read more on lag plots on http://www.statisticshowto.com/lag-plot/
 | n_lags | integer | compulsory |  | User defined number of lags for which the plots are to be made|
 
 ### Returns:
-Lag plots
+There is no return parameter for the function. The plot should be similar to
+https://github.com/commit-live-students/crypto_currency_project/blob/master/images/lag.png
