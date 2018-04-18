@@ -24,3 +24,4 @@ https://quantivity.wordpress.com/2011/02/21/why-log-returns/
 | --- | --- | --- |
 | df | pd.DataFrame | DataFrame after performing the above operations|
 
+The plot should be similar to https://github.com/commit-live-students/crypto_currency_project/blob/master/images/daily_returns.png
