@@ -11,6 +11,7 @@ Go through the quick start guide before starting the task : https://facebook.git
 - Plot the forecast using `Prohpet.plot()` method
 - Return a pandas series of `yhat` column from forecast dataframe
 
+Note: Include the line `plt.switch_backend('agg')` after the import statements
 
 ### Parameters :
 | Parameter | dtype | argument type | default value | description |
