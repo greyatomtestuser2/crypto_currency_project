@@ -20,6 +20,7 @@ Read more here : https://www.investopedia.com/university/movingaverage/movingave
 | Return | dtype | description |
 | --- | --- | --- |
 | df | pandas.DataFrame | return the dataframe after performing above operations|
+
 The plot should be similar to https://github.com/commit-live-students/crypto_currency_project/blob/master/images/moving_average.png
 
 `use center = False argument in DataFrame.rolling()`
