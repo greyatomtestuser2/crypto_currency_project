@@ -12,5 +12,5 @@ Now you have the historical prices of Bitcoin, let's start with exploring the da
 | path | string | compulsory |  | Path to the stored csv file containing the Bitcoin historical price|
 
 ### Returns:
-Plot of closing prices
+There is no return parameter for the function. 
 
