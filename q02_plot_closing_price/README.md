@@ -6,6 +6,8 @@ Now you have the historical prices of Bitcoin, let's start with exploring the da
 - Reads the previously stored csv file into a dataframe and assign the first column (`Date`) as `index`
 - Plot the closing prices of Bitcoin
 
+Note: Include the line `plt.switch_backend('agg')` after the import statements
+
 ### Parameters :
 | Parameter | dtype | argument type | default value | description |
 | --- | --- | --- | --- | --- |
