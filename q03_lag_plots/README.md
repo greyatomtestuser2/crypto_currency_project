@@ -9,6 +9,8 @@ You can read more on lag plots on http://www.statisticshowto.com/lag-plot/
 - Plot the lag using `pandas.plotting.lag_plot()`
 - Customize the function to plot the lag plots for user specified number of lags
 
+Note: Include the line `plt.switch_backend('agg')` after the import statements
+
 ### Parameters :
 | Parameter | dtype | argument type | default value | description |
 | --- | --- | --- | --- | --- |
