@@ -6,7 +6,7 @@ You can read more on lag plots on http://www.statisticshowto.com/lag-plot/
 
 ## Write a function `q03_lag_plots` that :
 - Reads the previously stored csv file into a dataframe and assign the first column (`Date`) as `index`
-- Plot the lag using `pandas.plotting.lag_plot()`
+- Plot the lag using `pandas.plotting.lag_plot()`. You need to set the `lag` property of `lag_plot()` to the user defined value i.e. `n_lags`
 - Customize the function to plot the lag plots for user specified number of lags
 
 Note: Include the line `plt.switch_backend('agg')` after the import statements
