@@ -12,7 +12,7 @@ https://quantivity.wordpress.com/2011/02/21/why-log-returns/
 - Plot the `Close` column
 - Return the transformed dataframe
 
-$$\alpha$$
+$\alpha$
 <img src = "log.gif">
 
 Note: Include the line `plt.switch_backend('agg')` after the import statements
