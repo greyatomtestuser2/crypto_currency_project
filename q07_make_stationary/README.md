@@ -7,7 +7,7 @@ Read more here : https://www.otexts.org/fpp/8/1
 ## Write a function `q07_make_stationary` that :
 - Reads the previously stored csv file into a dataframe and assign the first column (`Date`) as `index`
 - Add a cloumn `lClose` to the existing dataframe and store the log values of `Close` column in the same
-- Calculate the moving average with period 12 using `pandas.rolling_mean()` and store in variable called `moving_avg`
+- Calculate the moving average of `lClose` column with period 12 using `pandas.rolling_mean()` and store in series called `moving_avg`
 - Add a column `sClose` to the existing dataframe and store the difference between `lClose` and `moving_avg`
 - Return the dataframe
 
