@@ -7,7 +7,7 @@ https://en.wikipedia.org/wiki/Correlogram
 
 ## Write a function `q04_autocorrelation_plot` that :
 - Reads the previously stored csv file into a dataframe and assign the first column (`Date`) as `index`
-- Plot the correlogram using `pandas.plotting.autocorrelation_plot()`
+- Plot the correlogram using `pandas.plotting.autocorrelation_plot()` for the `Close` column of the dataframe
 
 Note: Include the line `plt.switch_backend('agg')` after the import statements
 
