@@ -13,7 +13,7 @@ https://quantivity.wordpress.com/2011/02/21/why-log-returns/
 - Return the transformed dataframe
 
 
-("images/log.gif")
+![image](images/log.gif")
 
 Note: Include the line `plt.switch_backend('agg')` after the import statements
 
